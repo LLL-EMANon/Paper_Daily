@@ -1,0 +1,10 @@
+{
+  "search_engines": ["arxiv", "semantic_scholar"],
+  "default_sort": "date",
+  "default_count": 10,
+  "venue_filter": ["CCF-A", "CORE A*", "CORE A"],
+  "time_window_days": 7,
+  "update_frequency": "daily",
+  "git_repository": "",
+  "keywords": ["vision-language-action models", "deep learning", "robotics", "world models"]
+}

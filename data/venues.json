@@ -1,0 +1,40 @@
+{
+  "venues": {
+    "NeurIPS": {
+      "full_name": "Neural Information Processing Systems",
+      "rank": "CCF-A",
+      "type": "conference",
+      "url": "https://neurips.cc"
+    },
+    "ICML": {
+      "full_name": "International Conference on Machine Learning",
+      "rank": "CCF-A",
+      "type": "conference",
+      "url": "https://icml.cc"
+    },
+    "ICLR": {
+      "full_name": "International Conference on Learning Representations",
+      "rank": "CCF-A",
+      "type": "conference",
+      "url": "https://iclr.cc"
+    },
+    "CVPR": {
+      "full_name": "Computer Vision and Pattern Recognition",
+      "rank": "CCF-A",
+      "type": "conference",
+      "url": "https://cvpr.thecvf.com"
+    },
+    "JMLR": {
+      "full_name": "Journal of Machine Learning Research",
+      "rank": "CCF-A",
+      "type": "journal",
+      "url": "https://jmlr.org"
+    },
+    "PAMI": {
+      "full_name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "rank": "CCF-A",
+      "type": "journal",
+      "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34"
+    }
+  }
+}

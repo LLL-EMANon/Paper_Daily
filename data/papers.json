@@ -1,0 +1,30 @@
+{
+  "papers": {
+    "2507.01925": {
+      "title": "A Survey on Vision-Language-Action Models: An Action Tokenization Perspective",
+      "authors": ["Yifan Zhong", "Fengshuo Bai", "Shaofei Cai", "Xuchuan Huang", "Zhang Chen", "Xiaowei Zhang", "Yuanfei Wang", "Shaoyang Guo", "Tianrui Guan", "Ka Nam Lui", "Zhiquan Qi", "Yitao Liang", "Yuanpei Chen", "Yaodong Yang"],
+      "arxiv_id": "2507.01925",
+      "url": "https://arxiv.org/abs/2507.01925",
+      "venue": "arXiv preprint",
+      "venue_rank": "Preprint",
+      "first_seen": "2026-03-10",
+      "keywords": ["vision-language-action", "robotics", "VLA"],
+      "citation_history": [
+        {"date": "2026-03-10", "count": 0}
+      ]
+    },
+    "2505.04769": {
+      "title": "Vision-Language-Action (VLA) Models: Concepts, Progress, Applications and Challenges",
+      "authors": ["Ranjan Sapkota", "Sagar Bhattarai", "Minh-Triet Tran"],
+      "arxiv_id": "2505.04769",
+      "url": "https://arxiv.org/abs/2505.04769",
+      "venue": "arXiv preprint",
+      "venue_rank": "Preprint",
+      "first_seen": "2026-03-10",
+      "keywords": ["vision-language-action", "robotics", "VLA"],
+      "citation_history": [
+        {"date": "2026-03-10", "count": 0}
+      ]
+    }
+  }
+}
