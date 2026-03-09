@@ -18,19 +18,7 @@ The integration of Large Language Models (LLMs) into autonomous driving has attr
 
 ---
 
-## 2. An ode to instantons
-
-**Meta**
-- Authors: Oliver Janssen, Joel Karlsson, Flavio Riccardi, Mattia Varrone
-- Published: 2026-03-07
-- arXiv: https://arxiv.org/abs/2603.06575v1
-
-**Abstract**
-We present a formalism for semiclassical time evolution in quantum mechanics, building on a century of work. We identify complex saddle points in real time, real saddle points in complex time, and complex saddle points in complex time that reproduce the known answers in classic problems. For the decay of a metastable state, we find finite time and finite energy analogs of the "bounce" which do not have strict zero or negative modes. The one-loop phase of the wave function and the multiplicity of bounce solutions at late times are discussed. The motivation of this work is to learn how to compute decay rates in quantum field theory in situations with non-trivial time dependence, by first taking a humble step backwards to the fascinating world of quantum mechanics.
-
----
-
-## 3. SCOPE: Scene-Contextualized Incremental Few-Shot 3D Segmentation
+## 2. SCOPE: Scene-Contextualized Incremental Few-Shot 3D Segmentation
 
 **Meta**
 - Authors: Vishal Thengane, Zhaochong An, Tianjin Huang, Son Lam Phung, Abdesselam Bouzerdoum, Lu Yin, Na Zhao, Xiatian Zhu
@@ -42,7 +30,7 @@ Incremental Few-Shot (IFS) segmentation aims to learn new categories over time f
 
 ---
 
-## 4. Penguin-VL: Exploring the Efficiency Limits of VLM with LLM-based Vision Encoders
+## 3. Penguin-VL: Exploring the Efficiency Limits of VLM with LLM-based Vision Encoders
 
 **Meta**
 - Authors: Boqiang Zhang, Lei Ke, Ruihan Yang, Qi Gao, Tianyuan Qu, Rossell Chen, Dong Yu, Leoweiliang
@@ -54,7 +42,7 @@ Vision Language Model (VLM) development has largely relied on scaling model size
 
 ---
 
-## 5. A recipe for scalable attention-based MLIPs: unlocking long-range accuracy with all-to-all node attention
+## 4. A recipe for scalable attention-based MLIPs: unlocking long-range accuracy with all-to-all node attention
 
 **Meta**
 - Authors: Eric Qu, Brandon M. Wood, Aditi S. Krishnapriyan, Zachary W. Ulissi
@@ -66,7 +54,7 @@ Machine-learning interatomic potentials (MLIPs) have advanced rapidly, with many
 
 ---
 
-## 6. Boosting deep Reinforcement Learning using pretraining with Logical Options
+## 5. Boosting deep Reinforcement Learning using pretraining with Logical Options
 
 **Meta**
 - Authors: Zihan Ye, Phil Chau, Raban Emunds, Jannis Blüml, Cedric Derstroff, Quentin Delfosse, Oleg Arenz, Kristian Kersting
@@ -78,19 +66,7 @@ Deep reinforcement learning agents are often misaligned, as they over-exploit ea
 
 ---
 
-## 7. Convergence of Neural Network Policies for Risk--Reward Optimization
-
-**Meta**
-- Authors: Chang Chen, Duy-Minh Dang
-- Published: 2026-03-07
-- arXiv: https://arxiv.org/abs/2603.06563v1
-
-**Abstract**
-We develop a neural-network framework for multi-period risk--reward stochastic control problems with constrained two-step feedback policies that may be discontinuous in the state. We allow a broad class of objectives built on a finite-dimensional performance vector, including terminal and path-dependent statistics, with risk functionals admitting auxiliary-variable optimization representations (e.g.\ Conditional Value-at-Risk and buffered probability of exceedance) and optional moment dependence. Our approach parametrizes the two-step policy using two coupled feedforward networks with constraint-enforcing output layers, reducing the constrained control problem to unconstrained training over network parameters. Under mild regularity conditions, we prove that the empirical optimum of the NN-parametrized objective converges in probability to the true optimal value as network capacity and training sample size increase. The proof is modular, separating policy approximation, propagation through the controlled recursion, and preservation under the scalarized risk--reward objective. Numerical experiments confirm the predicted convergence-in-probability behavior, show close agreement between learned and reference control heat maps, and demonstrate out-of-sample robustness on a large independent scenario set.
-
----
-
-## 8. EgoReasoner: Learning Egocentric 4D Reasoning via Task-Adaptive Structured Thinking
+## 6. EgoReasoner: Learning Egocentric 4D Reasoning via Task-Adaptive Structured Thinking
 
 **Meta**
 - Authors: Fangrui Zhu, Yunfeng Xi, Jianmo Ni, Mu Cai, Boqing Gong, Long Zhao, Chen Qu, Ian Miao, Yi Li, Cheng Zhong, Huaizu Jiang, Shwetak Patel
@@ -102,7 +78,7 @@ Egocentric video understanding is inherently complex due to the dynamic 4D natur
 
 ---
 
-## 9. Causal Interpretation of Neural Network Computations with Contribution Decomposition
+## 7. Causal Interpretation of Neural Network Computations with Contribution Decomposition
 
 **Meta**
 - Authors: Joshua Brendan Melander, Zaki Alaoui, Shenghua Liu, Surya Ganguli, Stephen A. Baccus
@@ -114,7 +90,7 @@ Understanding how neural networks transform inputs into outputs is crucial for i
 
 ---
 
-## 10. Hierarchical Industrial Demand Forecasting with Temporal and Uncertainty Explanations
+## 8. Hierarchical Industrial Demand Forecasting with Temporal and Uncertainty Explanations
 
 **Meta**
 - Authors: Harshavardhan Kamarthi, Shangqing Xu, Xinjie Tong, Xingyu Zhou, James Peters, Joseph Czyzyk, B. Aditya Prakash
@@ -123,5 +99,29 @@ Understanding how neural networks transform inputs into outputs is crucial for i
 
 **Abstract**
 Hierarchical time-series forecasting is essential for demand prediction across various industries. While machine learning models have obtained significant accuracy and scalability on such forecasting tasks, the interpretability of their predictions, informed by application, is still largely unexplored. To bridge this gap, we introduce a novel interpretability method for large hierarchical probabilistic time-series forecasting, adapting generic interpretability techniques while addressing challenges associated with hierarchical structures and uncertainty. Our approach offers valuable interpretative insights in response to real-world industrial supply chain scenarios, including 1) the significance of various time-series within the hierarchy and external variables at specific time points, 2) the impact of different variables on forecast uncertainty, and 3) explanations for forecast changes in response to modifications in the training dataset. To evaluate the explainability method, we generate semi-synthetic datasets based on real-world scenarios of explaining hierarchical demands for over ten thousand products at a large chemical company. The experiments showed that our explainability method successfully explained state-of-the-art industrial forecasting methods with significantly higher explainability accuracy. Furthermore, we provide multiple real-world case studies that show the efficacy of our approach in identifying important patterns and explanations that help stakeholders better understand the forecasts. Additionally, our method facilitates the identification of key drivers behind forecasted demand, enabling more informed decision-making and strategic planning. Our approach helps build trust and confidence among users, ultimately leading to better adoption and utilization of hierarchical forecasting models in practice.
+
+---
+
+## 9. SurgFormer: Scalable Learning of Organ Deformation with Resection Support and Real-Time Inference
+
+**Meta**
+- Authors: Ashkan Shahbazi, Elaheh Akbari, Kyvia Pereira, Jon S. Heiselman, Annie C. Benson, Garrison L. H. Johnston, Jie Ying Wu, Nabil Simaan, Michael I. Miga, Soheil Kolouri
+- Published: 2026-03-07
+- arXiv: https://arxiv.org/abs/2603.06543v1
+
+**Abstract**
+We introduce SurgFormer, a multiresolution gated transformer for data driven soft tissue simulation on volumetric meshes. High fidelity biomechanical solvers are often too costly for interactive use, so we train SurgFormer on solver generated data to predict nodewise displacement fields at near real time rates. SurgFormer builds a fixed mesh hierarchy and applies repeated multibranch blocks that combine local message passing, coarse global self attention, and pointwise feedforward updates, fused by learned per node, per channel gates to adaptively integrate local and long range information while remaining scalable on large meshes. For cut conditioned simulation, resection information is encoded as a learned cut embedding and provided as an additional input, enabling a unified model for both standard deformation prediction and topology altering cases. We also introduce two surgical simulation datasets generated under a unified protocol with XFEM based supervision: a cholecystectomy resection dataset and an appendectomy manipulation and resection dataset with cut and uncut cases. To our knowledge, this is the first learned volumetric surrogate setting to study XFEM supervised cut conditioned deformation within the same volumetric pipeline as standard deformation prediction. Across diverse baselines, SurgFormer achieves strong accuracy with favorable efficiency, making it a practical backbone for both tasks. {Code, data, and project page: \href{https://mint-vu.github.io/SurgFormer/}{available here}}
+
+---
+
+## 10. Unified Learning of Temporal Task Structure and Action Timing for Bimanual Robot Manipulation
+
+**Meta**
+- Authors: Christian Dreher, Patrick Dormanns, Andre Meixner, Tamim Asfour
+- Published: 2026-03-07
+- arXiv: https://arxiv.org/abs/2603.06538v1
+
+**Abstract**
+Temporal task structure is fundamental for bimanual manipulation: a robot must not only know that one action precedes or overlaps another, but also when each action should occur and how long it should take. While symbolic temporal relations enable high-level reasoning about task structure and alternative execution sequences, concrete timing parameters are equally essential for coordinating two hands at the execution level. Existing approaches address these two levels in isolation, leaving a gap between high-level task planning and low-level movement synchronization. This work presents an approach for learning both symbolic and subsymbolic temporal task constraints from human demonstrations and deriving executable, temporally parametrized plans for bimanual manipulation. Our contributions are (i) a 3-dimensional representation of timings between two actions with methods based on multivariate Gaussian Mixture Models to represent temporal relationships between actions on a subsymbolic level, (ii) a method based on the Davis-Putnam-Logemann-Loveland (DPLL) algorithm that finds and ranks all contradiction-free assignments of Allen relations to action pairs, representing different modes of a task, and (iii) an optimization-based planning system that combines the identified symbolic and subsymbolic temporal task constraints to derive temporally parametrized plans for robot execution. We evaluate our approach on several datasets, demonstrating that our method generates temporally parametrized plans closer to human demonstrations than the most characteristic demonstration baseline.
 
 ---
