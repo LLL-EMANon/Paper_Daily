@@ -1,6 +1,6 @@
 ﻿# Daily Papers - 2026-03-10
 
-**Topic**: world models  
+**Topic**: vision-language-action models  
 **Filter**: last 7 days
 **Count**: 10
 
@@ -42,19 +42,7 @@ The integration of Large Language Models (LLMs) into autonomous driving has attr
 
 ---
 
-## 4. An ode to instantons
-
-**Meta**
-- Authors: Oliver Janssen, Joel Karlsson, Flavio Riccardi, Mattia Varrone
-- Published: 2026-03-07
-- arXiv: https://arxiv.org/abs/2603.06575v1
-
-**Abstract**
-We present a formalism for semiclassical time evolution in quantum mechanics, building on a century of work. We identify complex saddle points in real time, real saddle points in complex time, and complex saddle points in complex time that reproduce the known answers in classic problems. For the decay of a metastable state, we find finite time and finite energy analogs of the "bounce" which do not have strict zero or negative modes. The one-loop phase of the wave function and the multiplicity of bounce solutions at late times are discussed. The motivation of this work is to learn how to compute decay rates in quantum field theory in situations with non-trivial time dependence, by first taking a humble step backwards to the fascinating world of quantum mechanics.
-
----
-
-## 5. Fly360: Omnidirectional Obstacle Avoidance within Drone View
+## 4. Fly360: Omnidirectional Obstacle Avoidance within Drone View
 
 **Meta**
 - Authors: Xiangkai Zhang, Dizhe Zhang, WenZhuo Cao, Zhaoliang Wan, Yingjie Niu, Lu Qi, Xu Yang, Zhiyong Liu
@@ -66,7 +54,7 @@ Obstacle avoidance in unmanned aerial vehicles (UAVs), as a fundamental capabili
 
 ---
 
-## 6. SCOPE: Scene-Contextualized Incremental Few-Shot 3D Segmentation
+## 5. SCOPE: Scene-Contextualized Incremental Few-Shot 3D Segmentation
 
 **Meta**
 - Authors: Vishal Thengane, Zhaochong An, Tianjin Huang, Son Lam Phung, Abdesselam Bouzerdoum, Lu Yin, Na Zhao, Xiatian Zhu
@@ -78,7 +66,7 @@ Incremental Few-Shot (IFS) segmentation aims to learn new categories over time f
 
 ---
 
-## 7. Third-order mixed electroweak-QCD corrections to the W-boson mass prediction from the muon lifetime
+## 6. Third-order mixed electroweak-QCD corrections to the W-boson mass prediction from the muon lifetime
 
 **Meta**
 - Authors: Ievgen Dubovyk, Ayres Freitas, Janusz Gluza, Johann Usovitsch
@@ -90,7 +78,7 @@ We present the calculation of the so far missing ${\cal O}(α^2α_\mathrm{s})$ c
 
 ---
 
-## 8. SUREON: A Benchmark and Vision-Language-Model for Surgical Reasoning
+## 7. SUREON: A Benchmark and Vision-Language-Model for Surgical Reasoning
 
 **Meta**
 - Authors: Alejandra Perez, Anita Rau, Lee White, Busisiwe Mlambo, Chinedu Nwoye, Muhammad Abdullah Jamal, Omid Mohareri
@@ -102,7 +90,7 @@ Surgeons don't just see -- they interpret. When an expert observes a surgical sc
 
 ---
 
-## 9. Penguin-VL: Exploring the Efficiency Limits of VLM with LLM-based Vision Encoders
+## 8. Penguin-VL: Exploring the Efficiency Limits of VLM with LLM-based Vision Encoders
 
 **Meta**
 - Authors: Boqiang Zhang, Lei Ke, Ruihan Yang, Qi Gao, Tianyuan Qu, Rossell Chen, Dong Yu, Leoweiliang
@@ -114,7 +102,7 @@ Vision Language Model (VLM) development has largely relied on scaling model size
 
 ---
 
-## 10. The Prevalence of Turbulence-Regulated Multiphase Galactic Winds in Star-Forming Galaxies
+## 9. The Prevalence of Turbulence-Regulated Multiphase Galactic Winds in Star-Forming Galaxies
 
 **Meta**
 - Authors: Zhihui Li, Timothy Heckman, Max Gronke, Xinfeng Xu, Alaina Henry, Evan Schneider, Matthew Abruzzo, Danielle Berg, Bethan James, Crystal Martin, John Chisholm
@@ -123,5 +111,17 @@ Vision Language Model (VLM) development has largely relied on scaling model size
 
 **Abstract**
 We build upon our previously developed multi-ion radiative transfer (RT) framework, PEACOCK, to investigate the kinematic and energetic structure of cool-to-warm galactic winds in a sample of 50 nearby star-forming galaxies. Using self-consistent constraints derived from joint modeling of Ly-alpha and multiple ultraviolet metal lines, we analyze how bulk outflows and turbulent motions contribute to the dynamics and energy budget of galactic winds in the circumgalactic medium (CGM). We find that macroscopic turbulent velocities are often comparable to, and sometimes exceed, the coherent bulk outflow velocity. The associated turbulent pressure frequently dominates over both microscopic pressure and ram pressure, indicating that turbulence is a major contributor to the kinetic energy budget of the CGM wind. Wind kinematics, ionic column densities, and metal mass outflow rates all scale systematically with stellar mass and star formation rate, demonstrating a strong coupling between stellar feedback and CGM structure. Including turbulent motions strengthens these CGM-galaxy scaling relations and favors an energy-driven feedback regime. The total kinetic energy flux of the cool-to-warm CGM correlates tightly with the mechanical energy injection rate from star formation, implying that stellar feedback provides sufficient power to sustain both coherent outflows and turbulence. Comparisons with phenomenological line-profile fitting methods further show that simplified treatments can introduce systematic biases in inferred wind properties. Together these results support a turbulence-regulated picture of galactic winds in which a substantial fraction of feedback energy is stored in turbulent motions within a multiphase CGM.
+
+---
+
+## 10. A recipe for scalable attention-based MLIPs: unlocking long-range accuracy with all-to-all node attention
+
+**Meta**
+- Authors: Eric Qu, Brandon M. Wood, Aditi S. Krishnapriyan, Zachary W. Ulissi
+- Published: 2026-03-07
+- arXiv: https://arxiv.org/abs/2603.06567v1
+
+**Abstract**
+Machine-learning interatomic potentials (MLIPs) have advanced rapidly, with many top models relying on strong physics-based inductive biases. However, as models scale to larger systems like biomolecules and electrolytes, they struggle to accurately capture long-range (LR) interactions, leading current approaches to rely on explicit physics-based terms or components. In this work, we propose AllScAIP, a straightforward, attention-based, and energy-conserving MLIP model that scales to O(100 million) training samples. It addresses the long-range challenge using an all-to-all node attention component that is data-driven. Extensive ablations reveal that in low-data/small-model regimes, inductive biases improve sample efficiency. However, as data and model size scale, these benefits diminish or even reverse, while all-to-all attention remains critical for capturing LR interactions. Our model achieves state-of-the-art energy/force accuracy on molecular systems, as well as a number of physics-based evaluations (OMol25), while being competitive on materials (OMat24) and catalysts (OC20). Furthermore, it enables stable, long-timescale MD simulations that accurately recover experimental observables, including density and heat of vaporization predictions.
 
 ---
